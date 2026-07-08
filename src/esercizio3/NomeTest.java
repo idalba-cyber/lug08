@@ -20,7 +20,7 @@ public class NomeTest {
 			myNome.stampa();
 			myNome.letteraNome = "IIIIIIIIII";
 			myNome.stampa();
-			myNome.letteraNome = "  ";
+			myNome.letteraNome = " \n ";
 			myNome.stampa();
 			
 
@@ -40,6 +40,22 @@ public class NomeTest {
 			myCognome.stampaCognome();
 			myCognome.letteraCognome = "DDDDDD";
 			myCognome.stampaCognome();
+			
+			
+			System.out.println(" ");
+			System.out.println("\n ALTERNATIVA SEMPLICE:\n");
+			System.out.println("IIIIIIIIII   DDDDDD");
+			System.out.println("    II       DD    DD");
+			System.out.println("    II       DD      DD");
+			System.out.println("    II       DD      DD");
+			System.out.println("    II       DD      DD");
+			System.out.println("    II       DD      DD");
+			System.out.println("    II       DD      DD");
+			System.out.println("    II       DD      DD");
+			System.out.println("    II       DD    DD");
+			System.out.println("IIIIIIIIII   DDDDDD");
+			
+			
 		}
 
 	}
